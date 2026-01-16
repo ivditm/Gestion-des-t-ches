@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-Do</title>
+    <style>
+        /* Минимальный CSS для опрятности */
+        body { font-family: sans-serif; max-width: 400px; margin: 20px auto; }
+        input { padding: 5px; width: 70%; }
+        button { padding: 5px; cursor: pointer; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #f0f0f0; margin: 5px 0; padding: 10px; display: flex; justify-content: space-between; }
+        .delete-btn { background: #ff4d4d; color: white; border: none; margin-left: 10px; }
+    </style>
+</head>
+<body>
+
+    <h2>taskList</h2>
+
+    <div>
+        <input type="text" id="taskInput" placeholder="Task description">
+        <button onclick="addTask()">Ajouter task</button>
+        <button onclick="deleteTask()">Supprimer task</button>
+    </div>
+
+    <ul id="taskList"></ul>
+
+</body>
+</html>
