@@ -4,6 +4,7 @@
 1) Une fonctionnalité d'ajout de tâches.
 
 2) Une fonctionnalité de suppression de tâches.
+appuer sur le button delete task
 
 
 L'objectif est de collaborer efficacement en utilisant Git pour gérer le code source de ce projet
