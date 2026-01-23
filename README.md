@@ -3,6 +3,8 @@
 
 1) Une fonctionnalité d'ajout de tâches.
 
+    appuer sur le button
+
 2) Une fonctionnalité de suppression de tâches.
 
 
